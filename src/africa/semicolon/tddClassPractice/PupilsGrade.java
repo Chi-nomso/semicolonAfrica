@@ -13,7 +13,7 @@ public class PupilsGrade {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter Your Score");
-        int score = input.nextByte();
+        int score = input.nextInt();
 
         if(score >= 90){
             System.out.println("You're in Grade A");
