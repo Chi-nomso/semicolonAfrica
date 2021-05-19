@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CalculatorTest {
 
     @Test
-    public void calculatorCanAddTest(){
+    void calculatorCanAddTest(){
         //given
 
        Calculator myCalculator = new Calculator();
@@ -21,7 +21,7 @@ public class CalculatorTest {
 
     }
     @Test
-    public void testThatCalculatorCanMultiply(){
+    void testThatCalculatorCanMultiply(){
         Calculator myCalculator = new Calculator();
         //when
 
@@ -31,21 +31,21 @@ public class CalculatorTest {
         assertEquals(12, result);
     }
     @Test
-    public void testThatCalculatorCanSubtract(){
+    void testThatCalculatorCanSubtract(){
         Calculator myCalculator = new Calculator();
         //when
         int result = myCalculator.subtract(10,5);
         assertEquals(5, result);
     }
     @Test
-    public void testThatCalculatorCanDivide(){
+    void testThatCalculatorCanDivide(){
         Calculator myCalculator = new Calculator();
         //when
         double result = myCalculator.divide(50,10);
         assertEquals(5, result);
     }
     @Test
-    public void testThatDivideReturnsZero(){
+    void testThatDivideReturnsZero(){
         Calculator myCalculator = new Calculator();
         //when
         double result = myCalculator.divide(20,0);

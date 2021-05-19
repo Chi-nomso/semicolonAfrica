@@ -37,7 +37,10 @@ public class Account {
     }
 
     public void setPin(int pin){
+           this.pin= pin;
         }
-
+        public int getpin(){
+        return pin;
+        }
     }
-}
+

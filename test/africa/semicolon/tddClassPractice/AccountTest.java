@@ -42,7 +42,8 @@ public class AccountTest {
         //given
         Account nomsoAccount = new Account();
         //when
-        nomsoAccount.setpin()
+        nomsoAccount.setPin(4444);
+        assertEquals(4444, nomsoAccount.getpin());
 
     }
 }
