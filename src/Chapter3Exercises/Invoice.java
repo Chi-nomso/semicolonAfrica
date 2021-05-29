@@ -8,8 +8,25 @@ public class Invoice {
 
 
     public Invoice(String partNumber, String partDescription, int quantity, int price){
+        this.partNumber = partNumber;
+        this.partDescription = partDescription;
 
+        purchasedItemQuantity = quantity;
+        if(quantity < 0){
+            System.out.println("Invalid Quantity");
+        }else{
+            purchasedItemQuantity = quantity;
+        }
+
+        eachItemPrice = price;
+        if(price < 0){
+            System.out.println("Invalid Amount");
+        }else{
+            eachItemPrice = price;
+        }
     }
+
+
     public String getPartNumber() {
         return partNumber;
     }
@@ -27,7 +44,11 @@ public class Invoice {
 
 
     public void setpurchasedItemQuantity(int quantity) {
-        purchasedItemQuantity = quantity;
+        if(quantity < 0){
+            System.out.println("Invalid Quantity");
+        }else {
+            purchasedItemQuantity = quantity;
+        }
     }
     public int getpurchasedItemQuantity() {
         return purchasedItemQuantity;
@@ -35,10 +56,19 @@ public class Invoice {
 
 
     public void seteachItemPrice(double itemPrice) {
-        eachItemPrice = itemPrice;
+        if(itemPrice > 0){
+            eachItemPrice = itemPrice;
+        }else
+            {
+                System.out.println("Invalid Amount");
+            }
     }
     public double geteachItemPrice() {
         return eachItemPrice;
     }
 
+
+    public double getinvoiceAmount() {
+        return eachItemPrice * purchasedItemQuantity;
+    }
 }
