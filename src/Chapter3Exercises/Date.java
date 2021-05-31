@@ -12,26 +12,26 @@ public class Date {
     }
 
 
-    public void setDateMonth(int June) {
-        month = June;
+    public void setdateMonth(6) {
+        month = 6;
     }
-    public int getDateMonth() {
+    public int getdateMonth() {
         return month;
     }
 
 
-    public void setDateDayNumber(int Eighteenth) {
-        day = Eighteenth;
+    public void setdateDayNumber(18) {
+        day = 18;
     }
-    public int getDateDayNumber() {
+    public int getdateDayNumber() {
         return day;
     }
 
 
-    public void setDateYear(int Year) {
+    public void setdateYear(int Year) {
         year = Year;
     }
-    public int getDateYear() {
+    public int getdateYear() {
         return year;
     }
 

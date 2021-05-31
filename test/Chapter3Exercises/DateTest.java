@@ -13,33 +13,33 @@ public class DateTest {
     }
     @Test
     public void testThatDateHasMonth(){
-        myDate.setDateMonth(6);
-        assertEquals(6, myDate.getDateMonth());
+        myDate.setdateMonth(6);
+        assertEquals(6, myDate.getdateMonth());
     }
 
     @Test
     public void testThatDateHasADayNumber(){
-        myDate.setDateDayNumber(18);
-        assertEquals(18, myDate.getDateDayNumber());
+        myDate.setdateDayNumber(18);
+        assertEquals(18, myDate.getdateDayNumber());
     }
 
     @Test
     public void testThatDateHasAYear(){
-        myDate.setDateYear(2021);
-        assertEquals(2021, myDate.getDateYear());
+        myDate.setdateYear(2021);
+        assertEquals(2021, myDate.getdateYear());
     }
 
     @Test
     public void testThatDateAligns(){
         //given
-        myDate.setDateMonth(6);
-        assertEquals(6, myDate.getDateMonth());
+        myDate.setdateMonth(6);
+        assertEquals(6, myDate.getdateMonth());
         //and
-        myDate.setDateDayNumber(18);
-        assertEquals(18, myDate.getDateDayNumber());
+        myDate.setdateDayNumber(18);
+        assertEquals(18, myDate.getdateDayNumber());
         //also
-        myDate.setDateYear(2021);
-        assertEquals(2021, myDate.getDateYear());
+        myDate.setdateYear(2021);
+        assertEquals(2021, myDate.getdateYear());
         //then
 
     }
