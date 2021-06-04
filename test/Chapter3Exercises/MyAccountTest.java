@@ -46,4 +46,16 @@ public class MyAccountTest {
         assertEquals(500.0, nomsoAccount.getmyAccountBalance());
         nomsoAccount.withdraw(1000.0);
     }
+
+    @Test
+    public void testThatMyAccountCanDeposit(){
+        MyAccount nomsoAccount = new MyAccount();
+        //given
+        nomsoAccount.setmyAccountBalance(1500.0);
+        assertEquals(1500.0, nomsoAccount.getmyAccountBalance());
+        //then
+        nomsoAccount.deposit(1000.0);
+        assertEquals(2500, nomsoAccount.getmyAccountBalance());
+
+    }
 }

@@ -12,7 +12,7 @@ public class Date {
     }
 
 
-    public void setdateMonth(6) {
+    public void setdateMonth() {
         month = 6;
     }
     public int getdateMonth() {
@@ -20,7 +20,7 @@ public class Date {
     }
 
 
-    public void setdateDayNumber(18) {
+    public void setdateDayNumber() {
         day = 18;
     }
     public int getdateDayNumber() {

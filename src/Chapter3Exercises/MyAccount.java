@@ -43,4 +43,9 @@ public class MyAccount {
         System.out.println("You no get money");
     }
 }
+
+    public void deposit(double amount) {
+        double deposit = amount;
+        acctBalance = acctBalance + deposit;
+    }
 }

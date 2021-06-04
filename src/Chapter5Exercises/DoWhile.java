@@ -7,20 +7,13 @@ public class DoWhile {
         Scanner inputcollector = new Scanner(System.in);
         int total = 0;
         //prompt
-        /*System.out.println("Enter a score or -1 to exit");
-        int score = inputcollector.nextInt();
-        while(score != -1){
-            total = total +score;
-        }
-        System.out.println("Total score is +total");*/
-
         int score = 0;
         do{
-            total +=score;
             System.out.println("Enter a score or -1 to exit");
+            total +=score;
             score = inputcollector.nextInt();
         }
         while(score != -1);
-        System.out.println("Total score is: (total +1)");
+        System.out.printf("Total score is %d: ", total);
     }
 }
