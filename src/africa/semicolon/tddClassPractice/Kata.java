@@ -49,5 +49,9 @@ public class Kata {
             }
         return money;
             }
+
+   public void getBinaryReturn(){
+
+   }
 }
 

@@ -29,10 +29,13 @@ public class ChristmasSong {
                     break;
                 case 7:
                     day = "seventh day";
+                    break;
                 case 8:
                     day = "Eighth day";
+                    break;
                 case 9:
                     day = "ninth day";
+                    break;
                 case 10:
                     day = "tenth day";
                     break;
