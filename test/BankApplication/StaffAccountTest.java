@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class StaffAccountTest {
     private StaffAccount myStaff;
     @BeforeEach
-    public void SetUp(){myStaff = new StaffAccount();}
+    public void SetUp(){myStaff = new StaffAccount("James", "Bond", 2222);}
 
     @Test
     public void testThatStaffCanLogin(){
-        myStaff.setFullName("James Bond");
+
         assertEquals("James Bond", myStaff.getFullName());
     }
 
@@ -21,5 +21,14 @@ public class StaffAccountTest {
         myStaff.setPin(2222);
         assertEquals(2222, myStaff.getPin());
     }
+
+//    @Test
+//    public void testThatStaffHasAName(){
+//        myStaff = new StaffAccount();
+////        myStaff.setStaffName("James", "Bond");
+//        assertEquals("James","Bond", myStaff.getStaffName());
+//    }
+
+
 }
 
