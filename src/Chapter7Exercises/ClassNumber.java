@@ -14,8 +14,8 @@ public class ClassNumber {
 
         int[] numbers = {2,4,6,8,7};
         int sum = 0;
-        int counter=0;
-        for(counter=0;counter<numbers.length;counter++){
+        int counter;
+        for(counter = 0; counter < numbers.length; counter++){
             sum= sum + numbers[counter];
             System.out.print(numbers[counter]);
         }

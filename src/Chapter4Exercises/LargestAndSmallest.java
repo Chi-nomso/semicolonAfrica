@@ -21,6 +21,7 @@ public class LargestAndSmallest {
             }
             numberCount++;
         }
+        System.out.println("you entered " + numberCount + " numbers and :");
         System.out.println("The Highest Number is" + highest);
         System.out.println("The Lowest Number is" + lowest);
     }

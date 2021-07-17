@@ -10,26 +10,26 @@ public class MyersBriggs {
         int[]thirdRow = {3,7,11,15,19};
         int[]fourthRow = {4,8,12,16,20};
         String[]questions = {
-                "A-expend energy, enjoy groups,\t                  B- conserve energy, enjoy one-on-one",
-                "A- interpret literally,\t                          B- look for meaning and possibilities",
-                            "A- logical, thinking, questioning,\t               B- empathetic, feeling, accommodating",
-                            "A- organized, orderly,\t                           B- flexible, Adaptable",
-                            "A- more outgoing, think out loud,\t                B- more reserved, think to yourself",
-                            "A- practical, realistic, experiential,\t           B-  imaginative, innovative, theoretical",
-                            "A- candid, straight forward, frank,\t              B-  tactful, kind, encouraging",
-                            "A- plan, schedule,\t                               B-  unplanned, spontaneous",
-                            "A- seek many tasks, public activities, interaction with others,\t B- seek private, solitary activities with quiet to concentrate",
-                            "A- standard, usual, conventional,\t                B- different, novel, unique",
-                            "A- firm, tend to criticize, hold the line,\t       B- gentle, tend to appreciate, conciliate",
-                            "A- regulated, structured,\t                        B- easygoing, “live” and “let live",
-                            "A- external, communicative, express yourself,\t    B- internal, reticent, keep to yourself",
-                            "A- focus on here-and-now,\t                        B- look to the future, global perspective",
-                            "A- tough-minded, just,\t                           B- tender-hearted, merciful",
-                            "A- preparation, plan ahead,\t                      B- go with the flow, adapt as you go",
-                            "A- active, initiate,\t                             B- reflective, deliberate",
-                            "A- facts, things, “what is”,\t                     B- ideas, dreams, “what could be,” philosophical",
-                            "A- matter of fact, issue-oriented,\t               B- sensitive, people-oriented, compassionate",
-                            "A- control, govern,\t                              B-  latitude, freedom"};
+                "A-expend energy, enjoy groups                                          B- conserve energy, enjoy one-on-one",
+                "A- interpret literally                                                 B- look for meaning and possibilities",
+                "A- logical, thinking, questioning                                      B- empathetic, feeling, accommodating",
+                "A- organized, orderly                                                  B- flexible, Adaptable",
+                "A- more outgoing, think out loud                                       B- more reserved, think to yourself",
+                "A- practical, realistic, experiential                                  B-  imaginative, innovative, theoretical",
+                "A- candid, straight forward, frank                                     B-  tactful, kind, encouraging",
+                "A- plan, schedule                                                      B-  unplanned, spontaneous",
+                "A- seek many tasks, public activities, interaction with others         B- seek private, solitary activities with quiet to concentrate",
+                "A- standard, usual, conventional                                       B- different, novel, unique",
+                "A- firm, tend to criticize, hold the line                              B- gentle, tend to appreciate, conciliate",
+                "A- regulated, structured                                               B- easygoing, “live” and “let live",
+                "A- external, communicative, express yourself                           B- internal, reticent, keep to yourself",
+                "A- focus on here-and-now                                               B- look to the future, global perspective",
+                "A- tough-minded, just                                                  B- tender-hearted, merciful",
+                "A- preparation, plan ahead                                             B- go with the flow, adapt as you go",
+                "A- active, initiate                                                    B- reflective, deliberate",
+                "A- facts, things, “what is”                                            B- ideas, dreams, “what could be,” philosophical",
+                "A- matter of fact, issue-oriented                                      B- sensitive, people-oriented, compassionate",
+                "A- control, govern                                                     B-  latitude, freedom"};
 
         String[]response = new String[questions.length];
         String userInput;
