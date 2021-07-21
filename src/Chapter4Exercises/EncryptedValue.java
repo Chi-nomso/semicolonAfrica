@@ -12,9 +12,9 @@ public class EncryptedValue {
         int number = input.nextInt();
         int digit1 = number / 1000;
         int cryptOne =  (digit1 + 7)% 10;
-        int digit2 = number/ 100 % 10;
+        int digit2 = (number/ 100) % 10;
         int cryptTwo = (digit2 + 7) % 10;
-        int digit3 = number % 100 / 10;
+        int digit3 = (number % 100) / 10;
         int cryptThree = (digit3 + 7) % 10;
         int digit4 = number % 10;
         int cryptFour = (digit4 + 7) % 10;
