@@ -1,4 +1,4 @@
-package Chapter5Exercises;
+package SalesApp;
 
 import java.util.ArrayList;
 import java.util.List;

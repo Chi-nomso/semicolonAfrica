@@ -1,4 +1,4 @@
-package Chapter7Exercises;
+package VariousPractice;
 
 public class IntegerArray {
     public void c(){
