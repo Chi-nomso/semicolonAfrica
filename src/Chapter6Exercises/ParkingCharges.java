@@ -23,7 +23,7 @@ public class ParkingCharges {
         Scanner input = new Scanner(System.in);
         int hour = 0;
         int count = 1;
-        while (hour > 0) {
+        while (hour != 0) {
             System.out.println("How many hours was your car packed?");
             hour = input.nextInt();
             double charge = 2.00;
