@@ -20,8 +20,7 @@ public class TableOfBinaryOctalHexadecimalNumbers {
         System.out.printf("%s%25s%25s%25s", "Number","BinaryValue", "OctalValue", "HexadecimalValue");
        for (int i = 0; i <= 256; i++) {
            System.out.printf("%d%25s%25s%25s%n",i,TableOfBinaryOctalHexadecimalNumbers.getBinaryValue(i),TableOfBinaryOctalHexadecimalNumbers.getOctalValue(i),TableOfBinaryOctalHexadecimalNumbers.getHexadecimalValue(i));
-//            System.out.println(TableOfBinaryOctalHexadecimalNumbers.getOctalValue(i));
-//            System.out.println(TableOfBinaryOctalHexadecimalNumbers.getHexadecimalValue(i));
+
 
         }
 
