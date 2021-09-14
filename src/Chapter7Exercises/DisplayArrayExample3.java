@@ -1,9 +1,10 @@
 package Chapter7Exercises;
 
 public class DisplayArrayExample3 {
-    /** ---> Create a 10 element Array with even numbers 2-20;
-     * ---> using a for loop, calculate (find) the array element's value by:
+    /** ---> Create a 10 element Array;
+     * ---> using a for loop, calculate (find) the array element's (which would result to even numbers)value by:
      * ---> multiply the counter value by 2 and add 2
+     * ---> Display the array Header and display the array elements.
      * */
 
     public static void main(String[] args) {
