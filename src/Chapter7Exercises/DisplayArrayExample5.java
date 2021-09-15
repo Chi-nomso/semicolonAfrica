@@ -20,13 +20,13 @@ public class DisplayArrayExample5 {
         System.out.println("Grade Distribution");
         for (int count = 0; count < range.length; count++) {
           if(count == 10) {
-              System.out.printf("%d%n", 100);
+              System.out.printf("%5d%n", 100);
           }else{
               System.out.printf("%02d-%02d:%n ", count * 10, count*10+9);
+              for (int hash = 0; hash < range[count]; hash++) {
+                  System.out.print("*");
           }
-            for (int hash = 0; hash < range[count]; hash++) {
-                System.out.print("* ");
-                // System.out.println();
+
             }
 
         }

@@ -11,6 +11,7 @@ class ReverseNumberTest {
     void testThatANumberCanBeReversed(){
         ReverseNumber reversed = new ReverseNumber();
         assertEquals(654321, reversed.numberReversed(123456));
+        System.out.println(reversed.numberReversed(654321));
     }
 
 

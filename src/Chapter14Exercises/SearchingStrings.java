@@ -11,4 +11,5 @@ public class SearchingStrings {
         System.out.println("Letter \"e\" is located at index " + sentence.indexOf('e',4));
         System.out.println("Letter \"i\" is located at index " + sentence.indexOf('i'));
     }
+
 }
