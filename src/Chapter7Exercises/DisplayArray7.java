@@ -14,8 +14,6 @@ public class DisplayArray7 {
             System.out.println("Enter the word");
             words[i] = input.nextLine();
         }
-        for (int j = words.length; j >=0 ; j--) {
-        }
         System.out.println(Arrays.toString(words));
     }
 }
