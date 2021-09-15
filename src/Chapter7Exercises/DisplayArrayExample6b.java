@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class DisplayArrayExample6b {
+    /**---> This program allows the user to fill in the array
+     * */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[]points = new int[5];
@@ -11,7 +13,7 @@ public class DisplayArrayExample6b {
         for(count = 0; count < 5; count++) {
             System.out.println("enter numbers");
             points[count] = input.nextInt();
-        }
+       }
         System.out.println(Arrays.toString(points));
     }
 }
