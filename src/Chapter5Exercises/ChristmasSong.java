@@ -70,7 +70,7 @@ public class ChristmasSong {
                 case 3:
                     System.out.println("Three French Hen");
                 case 2:
-                    System.out.println("Two Turtle doves");
+                    System.out.println("Two Turtlle doves");
                 case 1:
                     System.out.println("And a partridge in a pear tree");
             }

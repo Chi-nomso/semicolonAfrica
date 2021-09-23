@@ -15,18 +15,31 @@ public class DisplayArrayExample8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] values = new int[7];
-        for (int i = 0; i < values.length; i++) {
-            System.out.println("Enter Number");
+        System.out.println("Enter number 7times");
+        for (int i = 0; i < values.length; i++){
             values[i] = input.nextInt();
         }
-            System.out.println("Original Array");
-            System.out.println(Arrays.toString(values));
-            System.out.println("Reversed Array");
-            int[]numbers = new int[7];
+        System.out.println("Original Array is: " + Arrays.toString(values));
+        int []number = new int[7];
+        for (int i =0; i< number.length; i++){
+            number[i] = values[number.length-1 - i];
+        }
+        System.out.println("Reversed Array is: "+ Arrays.toString(number));
 
-            for(int i = 0; i < numbers.length; i++){
-                numbers[i] = values[numbers.length-1 -i];
-            }
-            System.out.println(Arrays.toString(numbers));
+
+
+//        for (int i = 0; i < values.length; i++) {
+//            System.out.println("Enter Number");
+//            values[i] = input.nextInt();
+//        }
+//            System.out.println("Original Array");
+//            System.out.println(Arrays.toString(values));
+//            System.out.println("Reversed Array");
+//            int[]numbers = new int[7];
+//
+//            for(int i = 0; i < numbers.length; i++){
+//                numbers[i] = values[numbers.length-1 -i];
+//            }
+//            System.out.println(Arrays.toString(numbers));
     }
 }
