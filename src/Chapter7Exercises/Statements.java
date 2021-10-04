@@ -15,11 +15,16 @@ public class Statements {
         int [] integerArrayBonus = new int[15];
         int [] integerArrayBestScores = {2,3,4,5,6};
         System.out.println(Arrays.toString(integerArray));
+
         System.out.println();
 
-        for (int count = 0; count < integerArrayBonus.length; count++) {
-            integerArrayBonus[count] = integerArrayBonus[count]+ 1;
-            System.out.println(integerArrayBonus[count]);
+        System.out.println("Second Array");
+        for(int value : integerArrayBonus){
+            if(integerArrayBonus[value] == 12){
+                integerArrayBonus[value] = 1;
+            }else{
+            System.out.println(value);
+        }
         }
 
         System.out.println("Values in the BestScore Array");
