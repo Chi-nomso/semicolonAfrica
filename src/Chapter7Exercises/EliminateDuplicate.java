@@ -7,8 +7,7 @@ public class EliminateDuplicate {
     /** >>> Declare a one dimensional array of length 5;
      * >>> collect user input to fill up the array with numbers between 10-100 resp.
      * >>> as the number comes in, display it as an array.
-     * >>> throw an exception to validate if the imputed number exists already, display "Number already exists" and ask again.
-     * >>> throw an exception to stop the programme once the values are complete in the array.
+     * >>> Validate if the imputed number exists already, display "Number already exists" and ask again.
      * >>> Display the complete array to complete the array.
      * */
 
