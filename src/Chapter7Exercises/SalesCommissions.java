@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class SalesCommissions {
     /** >>> Declare a one dimensional array of length 9
      * >>> collect the prices from the user
-     * >>> initialize a frequency variable
+     * >>> initialize a frequency product
      * >>> use a for loop with counter to loop through the prices given by the user to determine what grossPay falls between what range
      * >>> increase the frequency as thr numbers are supplied
      * >>> display the array of prices

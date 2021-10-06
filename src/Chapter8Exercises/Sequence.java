@@ -14,7 +14,7 @@ public class Sequence {
             --->initialize count, increment and keep Asking user for integers
             --->save input
             --->Last Impute + previous impute - first impute
-            --->Initialize the above into variable "next" and print next.
+            --->Initialize the above into product "next" and print next.
 
          */
           String info = """

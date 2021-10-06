@@ -4,7 +4,7 @@ public class DisplayArrayExample4 {
     /**---> Create a 10 element Array;
      * ---> using a for loop, calculate (get) the array index value by:
      * ---> multiplying the counter value by 2 and adding 2
-     * ---> initializing the Total variable, calculating the total;
+     * ---> initializing the Total product, calculating the total;
      * ---> Display the array Header and display the array elements and display the total;
      * */
 

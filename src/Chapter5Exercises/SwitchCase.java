@@ -55,5 +55,5 @@ public class SwitchCase {
     }
 
         /*in place of the 'if Statements, you can use the switch case because the options are
-            assigned to one variable 'userInput' and its not a boolean.
+            assigned to one product 'userInput' and its not a boolean.
              */

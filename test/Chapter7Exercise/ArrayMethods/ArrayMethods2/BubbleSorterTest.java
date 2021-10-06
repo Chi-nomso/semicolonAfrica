@@ -1,4 +1,4 @@
-package Chapter7Exercises.ArrayMethods2;
+package Chapter7Exercise.ArrayMethods.ArrayMethods2;
 
 import Chapter7Exercises.exception.ArraySorterException;
 import org.junit.jupiter.api.AfterEach;
