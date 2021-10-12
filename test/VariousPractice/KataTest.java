@@ -1,3 +1,5 @@
+package VariousPractice;
+
 import africa.semicolon.tddClassPractice.Kata;
 import org.junit.jupiter.api.Test;
 
