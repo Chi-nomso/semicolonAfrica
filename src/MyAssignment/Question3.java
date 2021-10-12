@@ -2,6 +2,16 @@ package MyAssignment;
 
 public class Question3 {
     /**  Write a Java program to print the following grid of dashes.
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
+     * - - - - - - - - - -
      * */
     public static void main(String[] args) {
         int[]dashGrid = new int[10];

@@ -16,8 +16,8 @@ public class Question4 {
             System.out.println("enter 10 numbers");
             values[i] = input.nextInt();
             sum = sum + values[i];
-            average =  (double)sum/ values.length;
         }
+        average =  (double)sum/ values.length;
         System.out.print("The array of values inputed is: ");
         System.out.println(Arrays.toString(values));
         System.out.println("The average of the array is: " + average);
