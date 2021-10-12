@@ -8,7 +8,6 @@ public class Question9 {
      * */
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         int[] values = {23,11,12,24,43,45,54,56,65,67};
         int index = 5;
         int newNumber = 70;
