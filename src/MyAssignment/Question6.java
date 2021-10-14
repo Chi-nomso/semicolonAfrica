@@ -10,7 +10,7 @@ public class Question6 {
     public static void main(String[] args) {
         int[] values = new int[10];
         Scanner scanner = new Scanner(System.in);
-        int target = 30;
+        int target = 3;
         for (int i = 0; i < values.length; i++) {
             System.out.println("enter 10 numbers");
             values[i] = scanner.nextInt();
