@@ -7,7 +7,6 @@ public class Question22 {
  * */
 
 public static int[] getTwoSum(int[]values, int target){
-   // values = new int[]{20,23,43,34,67,87,44,56,90,76};
     int []answer = new int[2];
     for (int i = 0; i < values.length-1; i++){
         for (int j = i+1; j < values.length; j++) {
@@ -16,7 +15,6 @@ public static int[] getTwoSum(int[]values, int target){
                 answer[1] = j;
             }
         }
-        //first++;
     }
     return answer;
 
