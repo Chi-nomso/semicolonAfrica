@@ -1,4 +1,5 @@
-package StrategyPattern;
+package designPatterns.strategyPattern;
+
 /**Bird returns I can flyable
  * Dog returns I can't flyable
  * Fish returns I can't flyable, I can only swim.

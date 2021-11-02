@@ -1,4 +1,4 @@
-package StrategyPattern;
+package designPatterns.strategyPattern;
 
 public class FlyByFlapping implements Flying{
     @Override
