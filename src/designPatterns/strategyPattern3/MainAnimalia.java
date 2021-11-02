@@ -14,11 +14,11 @@ public class MainAnimalia {
 
         System.out.println("Pisces " + shark.getMovement());
         System.out.println("Pisces " + shark.getSpeaking());
-
         System.out.println();
 
         System.out.println("Reptiles " + lizard.getMovement());
         System.out.println("Reptiles " + lizard.getSpeaking());
+        System.out.println();
 
         Animalia snake = new Reptile();
         snake.setMovement(new MoveBySwimming() );
