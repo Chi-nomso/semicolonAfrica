@@ -182,7 +182,7 @@ public class PhoneMenu {
                                     3- welcome note
                                     4- network selection
                                     5- Lights
-                                    6- confirm sim service action
+                                    6- confirm sim service actionByKicking
                                     """;
                             System.out.println(PhoneSetting);
                     }
