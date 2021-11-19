@@ -1,7 +1,7 @@
 package Chapter9Exercise.designPatterns.observerPattern;
 
 public class StockObserver implements Observer {
-    private Subject stockExchange;
+    private Observable stockExchange;
     private double ibmPrice;
     private double applPrice;
     private double goodPrice;
@@ -9,7 +9,7 @@ public class StockObserver implements Observer {
     private int stockId;
     private static int stockTrackingId = 0;
 
-    public StockObserver(Subject stockExchange) {
+    public StockObserver(Observable stockExchange) {
         this.stockExchange = stockExchange;
         stockId = ++stockTrackingId;
         System.out.println("New Observer " + stockId);

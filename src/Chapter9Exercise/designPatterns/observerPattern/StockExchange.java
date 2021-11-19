@@ -3,7 +3,7 @@ package Chapter9Exercise.designPatterns.observerPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StockExchange implements Subject{
+public class StockExchange implements Observable {
     List<Observer>observers;
     private double ibmPrice;
     private double applPrice;
