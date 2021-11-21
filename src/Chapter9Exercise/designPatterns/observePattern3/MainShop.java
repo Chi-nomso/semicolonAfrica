@@ -22,11 +22,15 @@ public class MainShop {
         farm.setProductCapacity(100000);
         System.out.println();
 
-//        farm.add(shop1);
-//        farm.add(shop2);
-//        farm.add(shop3);
-//        farm.getShops();
-        farm.remove(shop1);
+        AdaShop shop4 = new AdaShop(farm);
+        farm.setSize(300);
+        farm.setLocation("zaba");
+        farm.setProductCapacity(20000);
+        System.out.println();
+
+
+        farm.getShops();
+       farm.remove(shop2);
 
 
 

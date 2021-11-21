@@ -10,9 +10,13 @@ public class SweetFarms implements FarmLand{
     private int size;
     private String location;
     private int productCapacity;
-
     private int checker;
-    private static int shopTracker = 0;
+    private static int shopTracker = 1;
+
+    public SweetFarms(){
+        shops = new ArrayList<Shop>();
+        checker = ++shopTracker;
+    }
 
     public int getShops(){
         checker = ++shopTracker;
@@ -22,7 +26,6 @@ public class SweetFarms implements FarmLand{
 
     @Override
     public void add(Shop shop) {
-        shops = new ArrayList<Shop>();
         shops.add(shop);
         //getShops();
 
