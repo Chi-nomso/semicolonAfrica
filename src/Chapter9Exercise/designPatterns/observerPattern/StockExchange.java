@@ -27,7 +27,7 @@ public class StockExchange implements Observable {
     }
 
     @Override
-    public void notifyObserver() {
+    public void notifyObserver(){
         for(Observer observer : observers){
             observer.update(ibmPrice,applPrice,goodPrice);
         }
